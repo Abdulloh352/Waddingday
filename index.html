@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="uz-Latn">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f8efed" />
+    <meta name="description" content="Xurshid va Ruxshonaning nikoh to'yiga taklifnoma." />
+    <title>Xurshid &amp; Ruxshona | Nikoh to'yi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-grain" aria-hidden="true"></div>
+    <header class="site-header">
+      <a class="wordmark" href="#top" aria-label="Xurshid va Ruxshona">X <span>&amp;</span> R</a>
+      <div class="header-actions">
+        <div class="language-switch" role="group" aria-label="Tilni tanlang">
+          <button class="language-button is-active" data-lang="uz-Latn" aria-pressed="true">Lotin</button>
+          <button class="language-button" data-lang="uz-Cyrl" aria-pressed="false">Кирилл</button>
+        </div>
+        <button class="icon-button music-button" id="music-toggle" aria-label="Musiqani yoqish" title="Musiqani yoqish">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18V5l12-2v13M9 18c0 1.1-1.3 2-3 2s-3-.9-3-2 1.3-2 3-2 3 .9 3 2Zm12-2c0 1.1-1.3 2-3 2s-3-.9-3-2 1.3-2 3-2 3 .9 3 2ZM9 9l12-2" /></svg>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="cover" id="cover" aria-label="Taklifnoma muqovasi">
+        <div class="cover-ornament ornament-left" aria-hidden="true">❀</div>
+        <div class="cover-copy">
+          <span class="eyebrow" data-i18n="coverEyebrow">SIZ UCHUN, MEHR BILAN</span>
+          <h1 data-i18n="coverTitle">Hurmatli<br />mehmonimiz!</h1>
+          <p data-i18n="coverPrompt">Sovg'ani ochish uchun bosing</p>
+        </div>
+        <button class="gift-button" id="open-gift" aria-label="Taklifnomani ochish">
+          <span class="gift-shadow"></span>
+          <span class="gift-box">
+            <span class="gift-side"></span>
+            <span class="gift-front"></span>
+            <span class="gift-lid"></span>
+            <span class="gift-ribbon gift-ribbon-vertical"></span>
+            <span class="gift-ribbon gift-ribbon-horizontal"></span>
+            <span class="gift-bow bow-left"></span>
+            <span class="gift-bow bow-right"></span>
+            <span class="gift-knot"></span>
+          </span>
+          <span class="gift-sparkle sparkle-one">✳</span><span class="gift-sparkle sparkle-two">✳</span>
+        </button>
+        <span class="cover-date">15 <span>·</span> XI <span>·</span> 2026</span>
+        <span class="cover-ornament ornament-right" aria-hidden="true">❀</span>
+      </section>
+
+      <div class="invitation" id="invitation" aria-hidden="true">
+        <section class="hero section-shell" id="top">
+          <div class="hero-photo" role="img" aria-label="Bahorda gullagan daraxtlar">
+            <div class="hero-photo-overlay"></div>
+            <span class="hero-note" data-i18n="heroNote">BIR KUN · BIR HAYOT</span>
+          </div>
+          <div class="hero-heading">
+            <span class="eyebrow" data-i18n="heroEyebrow">NIKOH TO'YIGA TAKLIFNOMA</span>
+            <h2>Xurshid <i>&amp;</i><br />Ruxshona</h2>
+            <span class="hero-date">15 <span class="gold-dot">✳</span> 11 <span class="gold-dot">✳</span> 2026</span>
+          </div>
+          <div class="hero-bottom"><span data-i18n="heroBottom">Quvonchimizga sherik bo'ling</span><a href="#invitation-text" class="scroll-link" aria-label="Pastga o'tish">↓</a></div>
+        </section>
+
+        <section class="date-section section-shell">
+          <div class="date-heading">
+            <span class="section-kicker" data-i18n="dateKicker">KUNNI BELGILAB QO'YING</span>
+            <h2 class="section-title" data-i18n="dateTitle">Bizning baxtli kunimiz</h2>
+          </div>
+          <div class="date-layout">
+            <div class="calendar" aria-label="2026-yil noyabr taqvimi">
+              <div class="calendar-top"><span>NOVEMBER</span><span>2026</span></div>
+              <div class="calendar-grid calendar-weekdays"><span>Du</span><span>Se</span><span>Ch</span><span>Pa</span><span>Ju</span><span>Sh</span><span>Ya</span></div>
+              <div class="calendar-grid calendar-days" id="calendar-days"></div>
+            </div>
+            <div class="countdown-panel">
+              <span class="countdown-label" data-i18n="countdownLabel">TO'YGA QADAR</span>
+              <div class="countdown" id="countdown" aria-live="off">
+                <div><strong id="days">000</strong><span data-i18n="days">KUN</span></div><i>:</i>
+                <div><strong id="hours">00</strong><span data-i18n="hours">SOAT</span></div><i>:</i>
+                <div><strong id="minutes">00</strong><span data-i18n="minutes">DAQIQA</span></div><i>:</i>
+                <div><strong id="seconds">00</strong><span data-i18n="seconds">SONIYA</span></div>
+              </div>
+              <p data-i18n="countdownNote">Har lahza bizni uchrashuvimizga yaqinlashtiradi</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="schedule section-shell">
+          <div class="section-center"><span class="section-kicker" data-i18n="scheduleKicker">BIRGALIKDAGI KUNIMIZ</span><h2 class="section-title" data-i18n="scheduleTitle">Kun tartibi</h2></div>
+          <div class="timeline">
+            <article class="timeline-item"><span class="timeline-icon">☼</span><time>06:00</time><div><h3 data-i18n="event1">Nahor oshi</h3><p data-i18n="event1Sub">Tonggi fayzli suhbatlar</p></div></article>
+            <article class="timeline-item"><span class="timeline-icon">♡</span><time>11:00</time><div><h3 data-i18n="event2">Nikoh marosimi</h3><p data-i18n="event2Sub">Yangi hayot sari ilk qadam</p></div></article>
+            <article class="timeline-item"><span class="timeline-icon">✿</span><time>17:00</time><div><h3 data-i18n="event3">Mehmonlarni kutib olish</h3><p data-i18n="event3Sub">Saxovat to'yxonasida</p></div></article>
+            <article class="timeline-item"><span class="timeline-icon">♧</span><time>18:00</time><div><h3 data-i18n="event4">Kelin-kuyovning kirib kelishi</h3><p data-i18n="event4Sub">Quvonchli onlarning boshlanishi</p></div></article>
+            <article class="timeline-item"><span class="timeline-icon">✧</span><time>18:30</time><div><h3 data-i18n="event5">Ziyofat va tabriklar</h3><p data-i18n="event5Sub">Ezgu tilaklar va shodlik</p></div></article>
+          </div>
+        </section>
+
+        <section class="venue section-shell">
+          <div class="venue-copy"><span class="section-kicker" data-i18n="venueKicker">MANZILIMIZ</span><h2 class="section-title">Saxovat<br />to'yxonasi</h2><p class="venue-location"><span>⌖</span> Parkent tumani</p><div class="map-actions"><a class="map-button yandex" href="https://yandex.com/maps/?text=Saxovat%20to%27yxonasi%20Parkent" target="_blank" rel="noreferrer"><span>Y</span><span data-i18n="yandex">Yandex Xaritalar</span> ↗</a><a class="map-button google" href="https://www.google.com/maps/search/?api=1&query=Saxovat+to%27yxonasi+Parkent" target="_blank" rel="noreferrer"><span>G</span><span data-i18n="google">Google Maps</span> ↗</a></div></div>
+          <div class="map-frame"><iframe title="Parkent tumani xaritasi" src="https://maps.google.com/maps?q=Parkent%20District%2C%20Uzbekistan&t=&z=12&ie=UTF8&iwloc=&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><span class="map-label"><span class="map-pin">✳</span> SAXOVAT · PARKENT</span></div>
+        </section>
+
+        <section class="rsvp section-shell" id="rsvp">
+          <div class="rsvp-heading"><span class="section-kicker" data-i18n="rsvpKicker">SIZNI KUTAMIZ</span><h2 class="section-title" data-i18n="rsvpTitle">Kelasizmi?</h2><p data-i18n="rsvpCopy">Iltimos, 1-noyabrgacha javobingizni bildiring.</p></div>
+          <form id="rsvp-form">
+            <label for="guest-name" data-i18n="nameLabel">Ismingiz</label><input id="guest-name" name="name" type="text" required autocomplete="name" placeholder="Ism va familiya" data-i18n-placeholder="namePlaceholder" />
+            <fieldset><legend data-i18n="attendanceLabel">Ishtirokingiz</legend><label class="radio-option"><input type="radio" name="attendance" value="yes" required /><span data-i18n="attendYes">Albatta kelaman</span></label><label class="radio-option"><input type="radio" name="attendance" value="no" /><span data-i18n="attendNo">Afsuski, kela olmayman</span></label></fieldset>
+            <label for="guest-count" data-i18n="guestCountLabel">Necha kishi?</label><select id="guest-count" name="guests"><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option></select>
+            <label for="guest-message" data-i18n="messageLabel">Tilaklaringiz</label><textarea id="guest-message" name="message" rows="3" placeholder="Yurakdan chiqqan so'zlaringiz..." data-i18n-placeholder="messagePlaceholder"></textarea>
+            <button class="submit-button" type="submit"><span data-i18n="submit">JAVOBNI YUBORISH</span><span aria-hidden="true">↗</span></button>
+          </form>
+        </section>
+
+        <footer class="footer section-shell">
+          <span class="footer-flower" aria-hidden="true">✿</span><p data-i18n="footerMessage">Sizni kutamiz!</p><h2>Xurshid <i>&amp;</i> Ruxshona</h2><span class="footer-date">15 · 11 · 2026</span><div class="footer-ornament" aria-hidden="true"></div>
+        </footer>
+      </div>
+    </main>
+
+    <dialog class="confirmation" id="confirmation">
+      <button class="modal-close" id="close-modal" aria-label="Yopish">×</button><span class="modal-flower">✿</span><span class="section-kicker" data-i18n="modalKicker">JAVOBINGIZ QABUL QILINDI</span><h2 class="section-title" id="modal-title">Rahmat!</h2><p id="modal-copy">Siz bilan bu kunni baham ko'rishni intiqlik bilan kutamiz.</p><button class="submit-button modal-button" id="modal-done" data-i18n="modalDone">TUSHUNARLI</button>
+    </dialog>
+    <script src="app.js"></script>
+  </body>
+</html>
