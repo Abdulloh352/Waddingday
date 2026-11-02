@@ -152,7 +152,7 @@ document.querySelector("#rsvp-form").addEventListener("submit", (event) => {
   document.querySelector("#modal-title").textContent = translations[currentLanguage].smsReadyTitle;
   document.querySelector("#modal-copy").textContent = translations[currentLanguage].smsReadyCopy;
   confirmation.showModal();
-  window.location.href = `sms:+998900386444?body=${encodeURIComponent(smsBody)}`;
+  window.location.href = `sms:+998991660212?body=${encodeURIComponent(smsBody)}`;
 });
 document.querySelector("#close-modal").addEventListener("click", () => confirmation.close());
 document.querySelector("#modal-done").addEventListener("click", () => confirmation.close());
