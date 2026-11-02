@@ -5,7 +5,7 @@ const translations = {
     dateKicker: "KUNNI BELGILAB QO'YING", dateTitle: "Bizning baxtli kunimiz", countdownLabel: "TO'YGA QADAR", days: "KUN", hours: "SOAT", minutes: "DAQIQA", seconds: "SONIYA", countdownNote: "Har lahza bizni uchrashuvimizga yaqinlashtiradi",
     scheduleStart: "17:00 da to'y boshlanadi",
     venueKicker: "MANZILIMIZ", yandex: "Yandex Xaritalar", google: "Google Maps",
-    rsvpKicker: "SIZNI KUTAMIZ", rsvpTitle: "Kelasizmi?", rsvpCopy: "Iltimos, 14-noyabrgacha javobingizni bildiring.", nameLabel: "Ismingiz", namePlaceholder: "Ism va familiya", attendanceLabel: "Ishtirokingiz", attendYes: "Albatta kelaman", attendNo: "Afsuski, kela olmayman", guestCountLabel: "Necha kishi?", messageLabel: "Tilaklaringiz", messagePlaceholder: "Yurakdan chiqqan so'zlaringiz...", submit: "JAVOBNI YUBORISH", footerMessage: "Sizni kutamiz!", modalKicker: "JAVOBINGIZ QABUL QILINDI", modalDone: "TUSHUNARLI", modalYes: "Rahmat, {name}! Siz bilan bu kunni baham ko'rishni intiqlik bilan kutamiz.", modalNo: "Javobingiz uchun rahmat, {name}. Sizni sog'inamiz!", copyLabel: "Raqamni nusxalash", musicOn: "Musiqani yoqish", musicOff: "Musiqani to'xtatish", coverLabel: "Taklifnomani ochish"
+    rsvpKicker: "SIZNI KUTAMIZ", rsvpTitle: "Kelasizmi?", rsvpCopy: "Iltimos, 14-noyabrgacha javobingizni bildiring.", nameLabel: "Ismingiz", namePlaceholder: "Ism va familiya", attendanceLabel: "Ishtirokingiz", attendYes: "Albatta kelaman", attendNo: "Afsuski, kela olmayman", guestCountLabel: "Necha kishi?", messageLabel: "Tilaklaringiz", messagePlaceholder: "Yurakdan chiqqan so'zlaringiz...", submit: "JAVOBNI YUBORISH", footerMessage: "Sizni kutamiz!", modalKicker: "SMS YUBORISH UCHUN TAYYOR", modalDone: "YOPISH", smsReadyTitle: "SMS tayyorlandi", smsReadyCopy: "Telefoningizdagi SMS ilovasida yuborish tugmasini bosing. Sayt SMS yuborilganini tekshira olmaydi.", modalYes: "Rahmat, {name}! Siz bilan bu kunni baham ko'rishni intiqlik bilan kutamiz.", modalNo: "Javobingiz uchun rahmat, {name}. Sizni sog'inamiz!", copyLabel: "Raqamni nusxalash", musicOn: "Musiqani yoqish", musicOff: "Musiqani to'xtatish", coverLabel: "Taklifnomani ochish"
   },
   "uz-Cyrl": {
     coverEyebrow: "СИЗ УЧУН, МЕҲР БИЛАН", coverTitle: "Ҳурматли<br />меҳмонимиз!", coverPrompt: "Совғани очиш учун босинг",
@@ -13,7 +13,7 @@ const translations = {
     dateKicker: "КУННИ БЕЛГИЛАБ ҚЎЙИНГ", dateTitle: "Бизнинг бахтли кунимиз", countdownLabel: "ТЎЙГА ҚАДАР", days: "КУН", hours: "СОАТ", minutes: "ДАҚИҚА", seconds: "СОНИЯ", countdownNote: "Ҳар лаҳза бизни учрашувимизга яқинлаштиради",
     scheduleStart: "Тўй 17:00 да бошланади",
     venueKicker: "МАНЗИЛИМИЗ", yandex: "Яндекс Хариталари", google: "Google Хариталар",
-    rsvpKicker: "СИЗНИ КУТАМИЗ", rsvpTitle: "Келасизми?", rsvpCopy: "Илтимос, 14-ноябргача жавобингизни билдиринг.", nameLabel: "Исмингиз", namePlaceholder: "Исм ва фамилия", attendanceLabel: "Иштирокингиз", attendYes: "Албатта келаман", attendNo: "Афсуски, кела олмайман", guestCountLabel: "Неча киши?", messageLabel: "Тилакларингиз", messagePlaceholder: "Юракдан чиққан сўзларингиз...", submit: "ЖАВОБНИ ЮБОРИШ", footerMessage: "Сизни кутамиз!", modalKicker: "ЖАВОБИНГИЗ ҚАБУЛ ҚИЛИНДИ", modalDone: "ТУШУНАРЛИ", modalYes: "Раҳмат, {name}! Сиз билан бу кунни баҳам кўришни интиқлик билан кутамиз.", modalNo: "Жавобингиз учун раҳмат, {name}. Сизни соғинамиз!", copyLabel: "Рақамни нусхалаш", musicOn: "Мусиқани ёқиш", musicOff: "Мусиқани тўхтатиш", coverLabel: "Таклифномани очиш"
+    rsvpKicker: "СИЗНИ КУТАМИЗ", rsvpTitle: "Келасизми?", rsvpCopy: "Илтимос, 14-ноябргача жавобингизни билдиринг.", nameLabel: "Исмингиз", namePlaceholder: "Исм ва фамилия", attendanceLabel: "Иштирокингиз", attendYes: "Албатта келаман", attendNo: "Афсуски, кела олмайман", guestCountLabel: "Неча киши?", messageLabel: "Тилакларингиз", messagePlaceholder: "Юракдан чиққан сўзларингиз...", submit: "ЖАВОБНИ ЮБОРИШ", footerMessage: "Сизни кутамиз!", modalKicker: "SMS ЮБОРИШ УЧУН ТАЙЁР", modalDone: "ЁПИШ", smsReadyTitle: "SMS тайёрланди", smsReadyCopy: "Телефонингиздаги SMS иловасида юбориш тугмасини босинг. Сайт SMS юборилганини текшира олмайди.", modalYes: "Раҳмат, {name}! Сиз билан бу кунни баҳам кўришни интиқлик билан кутамиз.", modalNo: "Жавобингиз учун раҳмат, {name}. Сизни соғинамиз!", copyLabel: "Рақамни нусхалаш", musicOn: "Мусиқани ёқиш", musicOff: "Мусиқани тўхтатиш", coverLabel: "Таклифномани очиш"
   }
 };
 
@@ -140,10 +140,19 @@ document.querySelector("#rsvp-form").addEventListener("submit", (event) => {
   const formData = new FormData(event.currentTarget);
   const name = String(formData.get("name")).trim();
   const attending = formData.get("attendance") === "yes";
-  document.querySelector("#modal-title").textContent = attending ? (currentLanguage === "uz-Cyrl" ? "Раҳмат!" : "Rahmat!") : translations[currentLanguage].attendNo;
-  document.querySelector("#modal-copy").textContent = translations[currentLanguage][attending ? "modalYes" : "modalNo"].replace("{name}", name);
+  const attendanceText = translations[currentLanguage][attending ? "attendYes" : "attendNo"];
+  const message = String(formData.get("message")).trim();
+  const smsBody = [
+    "To'y RSVP",
+    `${translations[currentLanguage].nameLabel}: ${name}`,
+    `${translations[currentLanguage].attendanceLabel}: ${attendanceText}`,
+    `${translations[currentLanguage].guestCountLabel}: ${formData.get("guests")}`,
+    message ? `${translations[currentLanguage].messageLabel}: ${message}` : ""
+  ].filter(Boolean).join("\n");
+  document.querySelector("#modal-title").textContent = translations[currentLanguage].smsReadyTitle;
+  document.querySelector("#modal-copy").textContent = translations[currentLanguage].smsReadyCopy;
   confirmation.showModal();
-  event.currentTarget.reset();
+  window.location.href = `sms:+998900386444?body=${encodeURIComponent(smsBody)}`;
 });
 document.querySelector("#close-modal").addEventListener("click", () => confirmation.close());
 document.querySelector("#modal-done").addEventListener("click", () => confirmation.close());
